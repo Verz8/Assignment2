@@ -67,14 +67,13 @@
           <artifactId>coveralls-maven-plugin</artifactId>
           <version>4.3.0</version>
           <configuration>
-            <repoToken>${env.COVERALLS_REPO_TOKEN}</repoToken>
+            <repoToken>IhEkR2W5Gai5jJgHHh0OXIRQsfqe9DFpb</repoToken>
           </configuration>
           <dependencies>
             <dependency>
               <groupId>javax.xml.bind</groupId>
               <artifactId>jaxb-api</artifactId>
               <version>2.3.1</version>
-
             </dependency>
           </dependencies>
         </plugin>
