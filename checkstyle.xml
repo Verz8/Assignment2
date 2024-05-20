@@ -10,8 +10,8 @@
     <property name="headerFile" value="LICENCE.txt"/>
     </module>
     <module name="FileLength"></module>
+    <module name="EmptyCatchBlock"/>
     <module name="LineLength">
-        <module name="EmptyCatchBlock"/>
         <module name="FileTabCharacter"/>
     </module>
     <module name="TreeWalker">
