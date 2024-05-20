@@ -13,10 +13,10 @@
     <module name="FileTabCharacter"/>
     <module name="TreeWalker">
         <module name="EmptyCatchBlock"/>
-        <module name="BooleanExpressionComplexity">
+        <module name="CyclomaticComplexity">
             <property name="max" value="15"/>
         </module>
-        <module name="CyclomaticComplexity"/>
+        <module name="BooleanExpressionComplexity"/>
         <module name="MethodLength"/>
         <module name="AvoidStarImport"/>
         <module name="IllegalImport"/>
