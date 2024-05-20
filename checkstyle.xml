@@ -5,6 +5,9 @@
         "https://checkstyle.org/dtds/configuration_1_2.dtd">
 
 <module name="Checker">
+    <module name="CyclomaticComplexity">
+        <property name="max" value="15"/>
+    </module>
     <module name="Header">
         <property name="headerFile" value="LICENCE.txt"/>
     </module>
