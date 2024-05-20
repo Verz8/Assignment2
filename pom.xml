@@ -9,7 +9,6 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>roman-number</name>
-  <!-- FIXME change it to the project's website -->
   <url>https://github.com/Verz8/Assignment2</url>
 
   <properties>
@@ -40,13 +39,12 @@
     </plugins>
   </reporting>
 
-  <build>
-    <pluginManagement>      <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+  <build><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
           <groupId>org.jacoco</groupId>
           <artifactId>jacoco-maven-plugin</artifactId>
-          <version>0.8.13</version>
+          <version>0.8.12</version>
           <executions>
             <execution>
               <goals>
@@ -103,7 +101,10 @@
             </execution>
           </executions>
         </plugin>
+      </plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+    <pluginManagement>
+      <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>
