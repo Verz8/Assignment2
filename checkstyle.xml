@@ -4,15 +4,15 @@
   "-//Checkstyle//DTD Checkstyle Configuration 1.2//EN"
   "https://checkstyle.org/dtds/configuration_1_2.dtd">
 
-
+<module name="EmptyCatchBlock"/>
 <module name="Checker">
     <module name="Header">
     <property name="headerFile" value="LICENCE.txt"/>
     </module>
     <module name="FileLength"></module>
-    <module name="LineLength">
-        <module name="FileTabCharacter"/>
-    </module>
+
+    <module name="LineLength"/>
+    <module name="FileTabCharacter"/>
     <module name="TreeWalker">
         <module name="BooleanExpressionComplexity"></module>
         <module name="CyclomaticComplexity"></module>
