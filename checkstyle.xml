@@ -5,9 +5,6 @@
         "https://checkstyle.org/dtds/configuration_1_2.dtd">
 
 <module name="Checker">
-    <module name="CyclomaticComplexity">
-        <property name="max" value="15"/>
-    </module>
     <module name="Header">
         <property name="headerFile" value="LICENCE.txt"/>
     </module>
@@ -16,7 +13,9 @@
     <module name="FileTabCharacter"/>
     <module name="TreeWalker">
         <module name="EmptyCatchBlock"/>
-        <module name="BooleanExpressionComplexity"/>
+        <module name="BooleanExpressionComplexity">
+            <property name="max" value="15"/>
+        </module>
         <module name="CyclomaticComplexity"/>
         <module name="MethodLength"/>
         <module name="AvoidStarImport"/>
