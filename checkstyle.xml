@@ -6,24 +6,20 @@
 
 
 <module name="Checker">
-    <module name="TreeWalker">
-        <module name="BooleanExpressionComplexity">
-        </module>
-        <module name="CyclomaticComplexity">
-        </module>
-        <module name="FileLength">
-        </module>
-        <module name="LineLength">
-        </module>
-        <module name="MethodLength">
-        </module>
+    <module name="Header">
+    <property name="headerFile" value="LICENCE.txt"/>
+    </module>
+    <module name="FileLength"></module>
+    <module name="LineLength">
         <module name="EmptyCatchBlock"/>
         <module name="FileTabCharacter"/>
+    </module>
+    <module name="TreeWalker">
+        <module name="BooleanExpressionComplexity"></module>
+        <module name="CyclomaticComplexity"></module>
+        <module name="MethodLength"></module>
         <module name="AvoidStarImport"/>
         <module name="IllegalImport"/>
         <module name="NeedBraces"/>
-        <module name="Header">
-            <property name="headerFile" value="LICENCE.txt"/>
-        </module>
     </module>
 </module>
